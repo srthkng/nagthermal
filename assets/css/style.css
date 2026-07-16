@@ -27,6 +27,6 @@ footer{background:#0b1f3a;color:#fff}
     object-fit: cover;
     border-radius: 50%;
     border: 4px solid #0b1f3a;
- display: block;
-margin: 20px auto;
+    display: block;
+    margin: 20px auto;
 }
