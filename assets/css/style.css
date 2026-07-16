@@ -6,7 +6,15 @@ body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:v
 .card:hover{transform:translateY(-4px);transition:.25s}
 footer{background:#0b1f3a;color:#fff}
 .stat{font-size:2rem;font-weight:700;color:#1e5bb8}
-.placeholder-photo{width:220px;height:220px;border-radius:50%;background:#dfe7f3;display:flex;align-items:center;justify-content:center;margin:auto;border:6px solid white}
+
+.placeholder-photo{
+    width:300px;
+    height:300px;
+    object-fit:cover;
+    border-radius:50%;
+    border:6px solid white;
+    box-shadow:0 10px 30px rgba(0,0,0,0.25);
+}
 
 .profile-photo {
     width: 200px;
